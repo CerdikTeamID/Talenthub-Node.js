@@ -1,0 +1,59 @@
+/*
+tipe data
+- string / teks
+- number 1,2,3,4,-99
+- float bilang desimal, 0.2, 0.3, -0.5
+- boolean true, false
+- tipe object
+*/
+
+var angka1 = 500
+angka1 = 499
+let angka5 = 500
+var angka2 = 255
+var angka3 = 122
+var angka4 = 8
+const angka1 = 500
+angka1 = 499
+
+console.log(angka1 + angka2)
+console.log(angka2 - angka3)
+console.log(angka3 * angka4)
+console.log(angka1 / angka4)
+
+var penjumlahan = angka1 + angka2
+// statement
+
+if( penjumlahan === 754 ) {
+    console.log("gacor")
+}else{
+    console.log("rungkad")
+}
+console.log("3"*"3")
+SOAL:
+3824 + 7109 - 6553 * 8 : 10
+
+
+SOALNYA:
+
+saya minta buat object 
+parkiran
+-> jumlahKendaraan = number
+-> lantai = number
+-> mobil = object
+	-> jumlah: number
+	-> kode: string
+-> motor = object
+	-> jumlah: number
+	-> kode: string
+bikin statement untuk cek
+if jumlah kendaraan lebih dr 50, 
+print parkiran penuh
+kalo tidak parkiran masih kosong
+
+apabila lebih dr 50, if lagi 
+apabila mobil kurang dari 5
+maka print mobilnya sedikit
+kalo tidak mobilnya banyak
+
+
